@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">TestMonoDroid</string>
+	<string name="greetings_label">Hello, DI!</string>
+	<string name="label_enter_numbers_and_operation_type">Enter two numbers and operation type:</string>
+	<string name="label_firts_number">First number:</string>
+	<string name="label_last_number">Last number:</string>
+	<string name="operation_type">Operation:</string>
+	<string name="button_proccess_result">Process Operation</string>
+</resources>

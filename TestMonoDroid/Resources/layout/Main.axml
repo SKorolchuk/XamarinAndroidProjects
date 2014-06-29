@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <GridView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainGrid" />
+    <TextView
+        android:text="@string/greetings_label"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <TextView
+        android:text="@string/label_enter_numbers_and_operation_type"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_marginTop="47.8dp" />
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout1">
+        <TextView
+            android:text="@string/label_firts_number"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="142.5dp"
+            android:layout_height="34.4dp"
+            android:id="@+id/textView3" />
+        <EditText
+            android:inputType="number"
+            android:layout_width="174.5dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/textView3"
+            android:id="@+id/firstNumber" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="38.1dp"
+        android:id="@+id/relativeLayout2">
+        <TextView
+            android:text="@string/label_last_number"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="144.1dp"
+            android:layout_height="30.2dp"
+            android:id="@+id/textView4" />
+        <EditText
+            android:inputType="number"
+            android:layout_width="168.7dp"
+            android:layout_height="29.8dp"
+            android:layout_toRightOf="@id/textView4"
+            android:id="@+id/lastNumber" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="43.1dp"
+        android:id="@+id/relativeLayout3">
+        <TextView
+            android:text="@string/operation_type"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="144.4dp"
+            android:layout_height="33.5dp"
+            android:id="@+id/textView5" />
+        <EditText
+            android:inputType="text"
+            android:layout_width="166.2dp"
+            android:layout_height="27.1dp"
+            android:layout_toRightOf="@id/textView5"
+            android:id="@+id/operationType" />
+    </RelativeLayout>
+    <Button
+        android:text="@string/button_proccess_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/processButton" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultView"
+        android:textAlignment="center" />
+</LinearLayout>

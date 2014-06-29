@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMonoDroid", "TestMonoDroid\TestMonoDroid.csproj", "{F3950A1E-4D9B-4F3B-A754-1E09B7D3049A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3950A1E-4D9B-4F3B-A754-1E09B7D3049A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3950A1E-4D9B-4F3B-A754-1E09B7D3049A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3950A1E-4D9B-4F3B-A754-1E09B7D3049A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3950A1E-4D9B-4F3B-A754-1E09B7D3049A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = TestMonoDroid\TestMonoDroid.csproj
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = None
+		$1.ResourceNamePolicy = FileFormatDefault
+		$0.VersionControlPolicy = $2
+		$2.inheritsSet = Mono
+		$0.ChangeLogPolicy = $3
+		$3.UpdateMode = None
+		$3.MessageStyle = $4
+		$4.LineAlign = 0
+		$3.inheritsSet = Mono
+	EndGlobalSection
+EndGlobal
